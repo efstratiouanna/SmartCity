@@ -1,0 +1,13 @@
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\bin\Debug\SmartCityProject.exe.config
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.csprojResolveAssemblyReference.cache
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.Form1.resources
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.Properties.Resources.resources
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.csproj.GenerateResource.Cache
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\bin\Debug\SmartCityProject.exe
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\bin\Debug\SmartCityProject.pdb
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.exe
+c:\users\anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.pdb
+C:\Users\Anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.ControlTemprature.resources
+C:\Users\Anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.MapForm.resources
+C:\Users\Anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.Map.resources
+C:\Users\Anna\documents\visual studio 2013\Projects\SmartCityProject\SmartCityProject\obj\Debug\SmartCityProject.OnlineHelp.resources

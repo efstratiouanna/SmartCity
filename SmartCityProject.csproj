@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7930310-D87D-400D-B12A-EB6D963A3972}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartCityProject</RootNamespace>
+    <AssemblyName>SmartCityProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemprature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlTemprature.Designer.cs">
+      <DependentUpon>ControlTemprature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map.Designer.cs">
+      <DependentUpon>Map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapForm.cs" />
+    <Compile Include="MapForm.Designer.cs">
+      <DependentUpon>MapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineHelp.Designer.cs">
+      <DependentUpon>OnlineHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WaterHeater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaterHeater.Designer.cs">
+      <DependentUpon>WaterHeater.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ControlTemprature.resx">
+      <DependentUpon>ControlTemprature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map.resx">
+      <DependentUpon>Map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapForm.resx">
+      <DependentUpon>MapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineHelp.resx">
+      <DependentUpon>OnlineHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\1_390x290_390x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\2_390x290_390x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\3_390x290_390x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\4_390x290_390x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\bathroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\bathroom2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\bedroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\bedroom2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\bedroom3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\bedroom4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\boiler1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\boiler2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\cup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentbathroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentbathroom2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentbathroomfallen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentbathroomnurse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentbedroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentbedroom2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentbedroomfallen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentbedroomnurse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparenthouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentkitchen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentkitchen2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentkitchenfallen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentkitchennurse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentlivingroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentlivingroom2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentlivingroomfallen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\grandparentlivingroomnurse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\kitchen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\kitchen2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\livingroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\livingroom2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\smart city.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\smart-city1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\switch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\thermostat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\bybicycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\bybysortrain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\bycar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\byfoot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\bybusortrain.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
